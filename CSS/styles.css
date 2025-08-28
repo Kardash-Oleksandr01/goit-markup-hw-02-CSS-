@@ -26,14 +26,16 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
-
+.header-logo .logo-part{
+    color: #2e2f42;
+}
 
 
 /*Main*/
 /*Section 1*/
 .section-hero{
-    background-color: #2e2f42; /* темний фон */
-  color: #ffffff;            /* білий текст */
+    background-color: #2e2f42; 
+  color: #ffffff;           
   text-align: center;
   width: 1440px;
    height: 600px; 
@@ -44,7 +46,7 @@ color: #4d5ae5;
 font-weight: 700;
 font-size: 56px;
 
-/* line-height: 60px; */ 
+/* line-height: 60px; */
 line-height: 107%;
 letter-spacing: 0.02em;
 text-align: center;
@@ -58,3 +60,17 @@ color: #fff;
     font-family: "Raleway", sans-serif;}
     
 
+/*Footer*/
+.footer-logo .logo-twopart{
+    color: #2e2f42;
+}
+
+.footer-text{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+
+}
