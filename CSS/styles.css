@@ -1,18 +1,17 @@
-.body-beground {
-    width: 1440px;
-height: 600px; 
-background: var(--navy-blue);
+
+body{
+    roboto-family: 'Roboto', sans-serif;
+    raleway-family: 'Raleway', sans-serif;
+}
+.section-hero{
+    background-color: #2e2f42; /* темний фон */
+  color: #ffffff;            /* білий текст */
+  text-align: center;
+  width: 1440px;
+   height: 600px; 
 }
 
-
-
-
-.logo-studio{
-    
-}
-
-
-h1{
+.main-text{
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 56px;
@@ -21,3 +20,5 @@ letter-spacing: 0.02em;
 text-align: center;
 color: var(--white);
 }
+
+
