@@ -30,6 +30,37 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 
+/* Навігація */
+.nav-link {
+  font-weight: 500;       /* жирний шрифт */
+  line-height: 1.5;       /* простір між рядками */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #2e2f42;         /* колір тексту */
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;         /* колір при ховері та фокусі */
+}
+
+/* Контакти */
+.contacts {
+  font-style: normal;      /* прибираємо курсив */
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
 
 /* Section Hero */
 .section-hero {
