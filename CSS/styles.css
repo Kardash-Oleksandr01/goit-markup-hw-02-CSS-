@@ -3,7 +3,7 @@
  
  
  body{
-  
+  font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #fff;
 }
@@ -104,6 +104,11 @@ color: #4d5ae5;
 }
 
 /* Section 1 */
+
+	.btn-primary:hover { background-color: #404BBF; }
+	.btn-primary:focus { background-color: #404BBF; outline: none; }
+	.btn-primary { background-color: #4D5AE5; color: #fff; }
+
 .section-hero {
   background-color: #2e2f42; /* фон секції */
   padding: 60px 20px;         /* додатково, щоб контент не прилипав до країв */
