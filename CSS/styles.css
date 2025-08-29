@@ -31,34 +31,47 @@ color: #4d5ae5;
 }
 
 
-/*Main*/
-/*Section 1*/
-.section-hero{
-    background-color: #2e2f42; 
-  color: #ffffff;           
+/* Section Hero */
+.section-hero {
   text-align: center;
-  width: 1440px;
-   height: 600px; 
+  padding: 100px 20px;
+  background-color: #f4f4fd; /* Приклад фону секції */
 }
 
-.main-text{
-    font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 56px;
-
-/* line-height: 60px; */
-line-height: 107%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+/* Заголовок секції */
+.main-text {
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: capitalize;
 }
-.main-order{margin-top: 40px;
-    width: 200px;
-    height: 60px;
-   background: #4d5ae5;
-    border-radius: 30px;
-    font-family: "Raleway", sans-serif;}
-    
+
+/* Кнопка */
+.btn-primary {
+  font-family: "Roboto", sans-serif; /* Наслідування від body */
+  font-weight: 500;                  /* Жирність тексту */
+  line-height: 1.5;                  /* Висота рядків */
+  letter-spacing: 0.04em;            /* Відстань між літерами */
+  color: #ffffff;                     /* Колір тексту */
+  background-color: #6066ff;         /* Основний колір кнопки */
+  border: none;
+  border-radius: 8px;                 /* За бажанням, закруглені кути */
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;                    /* Курсор при наведенні */
+  transition: background-color 0.3s ease; /* Плавна анімація */
+}
+
+/* Ефекти наведення та фокусу */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #404bbf;
+  outline: none; /* Вимикає стандартну рамку при фокусі */
+}
+
 /*Section 2*/
 /* Заголовок h3 у першому пункті списку */
 .feature-title {
@@ -78,7 +91,7 @@ color: #fff;
 
 
 
-/* Секція */
+/* Section 3*/
 .team-section {
   background-color: #f4f4fd;
   padding: 60px 0;
@@ -132,6 +145,59 @@ color: #fff;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Section 4 */
+.section-portfolio {
+  background-color: #f4f4fd; /* якщо потрібно для секції */
+  padding: 60px 20px;
+}
+
+/* Заголовок секції */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+/* Список портфоліо */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Окремий елемент портфоліо */
+.portfolio-item {
+  text-align: center;
+  max-width: 360px;
+}
+
+/* Заголовки елементів портфоліо */
+.item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+  margin: 10px 0 5px;
+}
+
+/* Параграфи елементів портфоліо */
+.item-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0;
+}
+
 
 
 /*Footer*/
