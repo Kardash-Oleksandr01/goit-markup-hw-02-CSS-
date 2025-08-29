@@ -103,6 +103,7 @@ a {
 .feature-text {
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 /* Section 3 */
@@ -129,6 +130,7 @@ a {
 
 .team-item .feature-text {
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 /* Section 4 */
