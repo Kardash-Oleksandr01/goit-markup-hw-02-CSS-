@@ -59,18 +59,55 @@ color: #fff;
     border-radius: 30px;
     font-family: "Raleway", sans-serif;}
     
+/*Section 2*/
+/* Заголовок h3 у першому пункті списку */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Параграф у першому пункті списку */
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; /* Можеш замінити на інший, якщо потрібно */
+}
+
+
+
+
 
 /*Footer*/
-.footer-logo .logo-twopart{
-    color: #2e2f42;
+
+.page-footer {
+  background-color: #2e2f42;
 }
 
-.footer-text{
-    font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5; /* Web — синій */
+  text-decoration: none;
 }
+
+.logo-twopart {
+
+  color: #f4f4fd; /* Studio — білий */
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
